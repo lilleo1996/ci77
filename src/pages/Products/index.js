@@ -31,16 +31,16 @@ const Products = () => {
     })
   }
 
-  const createProduct = () => {
-    const productData = {}
-    axios.post('/user', productData)
-    .then(function (response) {
-      console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-  }
+  // const createProduct = () => {
+  //   const productData = {}
+  //   axios.post('/user', productData)
+  //   .then(function (response) {
+  //     console.log(response);
+  //   })
+  //   .catch(function (error) {
+  //     console.log(error);
+  //   });
+  // }
 
   return (
     <div className="products">
